@@ -20,20 +20,6 @@
   overflow: hidden;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-} */
-
 .logo {
   z-index: 1;
   width: 228px;
@@ -94,7 +80,7 @@
 .description {
   display: flex;
   justify-content: center;
-  padding: 100px 0 100px 0;
+  padding: 100px 0 0 0;
   margin: 0;
 }
 
@@ -234,6 +220,56 @@
   right: 48px;
   top: 50%;
   position: absolute;
+}
+
+.kaufman {
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+}
+
+.section-title_theme_dark {
+  color: white;
+  padding: 0;
+  margin: 90px 0 0 0;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table_theme_dark {
+  color: white;
+  padding: 0;
+  margin: 0 0 90px 0;
+  z-index: 1;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  color: white;
+  font-weight: bold;
+}
+
+.table__text_theme_dark {
+  color: white;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
 }
 
 .footer {
