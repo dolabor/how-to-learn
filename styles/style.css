@@ -9,6 +9,12 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
