@@ -9,24 +9,21 @@
 </head>
 <body>
 <div class="page">
+  <header class="header">
+    <img class="logo logo_place_header" src="images/logo_place_header.svg" alt="Логотип Яндекс Практикум">
+    <h1 class="header__title">Научиться учиться</h1>
+    <p class="header__subtitle">
+      Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+      <span class="header__link">Узнать &rarr;</span>
+    </p>
+    <img class="header__main-illustration" src="images/header-image.png" alt="Фото мальчика">
+    <div class="header__square-pic"></div>
+  </header>
+
   <main class="content">
-
-    <header class="header">
-      <img class="logo logo_place_header" src="images/logo_place_header.svg" alt="Логотип Яндекс Практикум">
-      <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">
-        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <span class="header__subtitle-link">Узнать &rarr;</span>
-      </p>
-      <img class="header__main-illustration" src="images/header-image.png" alt="Фото мальчика">
-      <div class="header__square-pic"></div>
-    </header>
-
     <section class="description">
       <div class="two-columns">
-        <div class="two-columns__brief">
-          <h5>Главные проблемы в обучении</h5>
-        </div>
+        <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">
             Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
@@ -48,7 +45,7 @@
 
     <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
-      <h3 class="section-subtitle">Про учёбу и мозг</h3>
+      <p class="section-subtitle">Про учёбу и мозг</p>
       <div class="table">
         <div class="table__cell">
           <h4 class="table__heading">86 миллиардов</h4>
@@ -90,8 +87,8 @@
     </section>
 
     <section class="feynman">
-      <h1 class="feynman__title">Метод Фейнмана</h1>
-      <h5 class="feynman__subtitle">Выучить и не забыть.</h5>
+      <h2 class="feynman__title">Метод Фейнмана</h2>
+      <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
       <a href="#" class="feynman__link">Подробнее &rarr;</a>
     </section>
 
@@ -144,18 +141,18 @@
           <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
         </div>
       </div>
-      <img class="kaufman__triangle" src="images/kaufman-triangle.svg" alt="Синий треугольник">
+      <div class="kaufman__triangle"></div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="footer__columns">
-      <div class="footer__column_content_copyright">
-        <img class="logo" src="images/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
+      <div class="footer__column footer__column_content_copyright">
+        <img class="logo logo_place_footer" src="images/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
         <p class="footer__author">&COPY; Евгения Чигжит</p>
       </div>
-      <div class="footer__column_content_info">
-        <h5 class="footer__column-heading">О Практикуме</h5>
+      <div class="footer__column footer__column_content_info">
+        <h2 class="footer__column-heading">О Практикуме</h2>
         <ul class="footer__column-links">
           <li>
             <a class="footer__column-link" href="#">Главная</a>
@@ -168,28 +165,30 @@
           </li>
         </ul>
       </div>
-      <div class="footer__column_content_social">
-        <h5 class="footer__column-heading">Соцсети</h5>
-        <ul class="footer__column-links">
-          <li>
-            <a class="footer__column-link" href="#">
-              <img class="footer__social-icon" src="images/youtube-icon.svg" alt="Ютуб">
-              Youtube
-            </a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">
-              <img class="footer__social-icon" src="images/vk_color_white.svg" alt="ВКонтакте">
-              ВКонтакте
-            </a>
-          </li>
-          <li>
-            <a class="footer__column-link" href="#">
-              <img class="footer__social-icon" src="images/tiktok-icon.svg" alt="Тикток">
-              Tiktok
-            </a>
-          </li>
-        </ul>
+      <div class="footer__column footer__column_content_social">
+        <h2 class="footer__column-heading">Соцсети</h2>
+        <nav>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="images/youtube-icon.svg" alt="Ютуб">
+                Youtube
+              </a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="images/vk_color_white.svg" alt="ВКонтакте">
+                ВКонтакте
+              </a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="images/tiktok-icon.svg" alt="Тикток">
+                Tiktok
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   </footer>
