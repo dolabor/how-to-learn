@@ -78,6 +78,8 @@
   margin-top: 64px;
   position: absolute;
   top: 0;
+  transition: transform;
+  animation: rotation 20s linear infinite;
 }
 
 .description {
@@ -382,6 +384,16 @@
   flex-wrap: nowrap;
   align-items: center;
 }
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 
 
 
