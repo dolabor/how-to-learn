@@ -4,11 +4,10 @@
   width: 60%;
   padding: 100px 0 0 0;
   margin: 0;
-  top: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
   display: flex;
   justify-content: center;
-  z-index: 1;
+  z-index: 3;
 }
