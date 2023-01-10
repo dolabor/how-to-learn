@@ -1,1 +1,7 @@
-.footer__column-link {}
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}

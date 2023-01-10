@@ -1,1 +1,5 @@
-.logo {}
+.logo {
+  z-index: 1;
+  width: 228px;
+  height: 32px;
+}

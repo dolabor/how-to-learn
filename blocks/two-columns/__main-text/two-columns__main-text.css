@@ -1,1 +1,9 @@
-.two-columns__main-text {}
+.two-columns__main-text {
+  font-weight: normal;
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0;
+}
