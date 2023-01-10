@@ -9,4 +9,6 @@
   top: 0;
   z-index: -1;
   background-position: top right;
+  transition: transform;
+  animation: rotation 20s linear infinite;
 }
