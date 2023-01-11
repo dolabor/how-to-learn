@@ -1,5 +1,4 @@
 .rotation {
-  transition: transform;
   animation: rotation 20s linear infinite;
 }
 
